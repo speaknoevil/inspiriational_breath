@@ -2,7 +2,7 @@
 ''' Takes a pickle file containing a list of inspirational quotes.
 Chooses a random list string.
 Sends the string via SNS to numbers listed in main(). 
-Requires sns_sender and modifying numbers list. '''
+Requires sns_sender, your own pickle list of quotes, and modifying numbers list. '''
 
 from pathlib import Path
 import sys
